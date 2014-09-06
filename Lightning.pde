@@ -20,8 +20,8 @@ void draw()
 }
 void mousePressed()
 {	int randcolor1 = (int)(Math.random()*401);
-	int randcolor2 = floor(random(1,400));
-	int randcolor3 = floor(random(1,400));
+	int randcolor2 = (int)(Math.random()*401);
+	int randcolor3 = (int)(Math.random()*401);
 	int randinteger1 = (int)(Math.random()*50);
 	int randinteger2 = (int)(Math.random()*90);
 	
